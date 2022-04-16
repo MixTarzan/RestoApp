@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-26dp">
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="728dp"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/lbl_bestelling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_200"
+                android:fontFamily="sans-serif"
+                android:text="@string/bestelling"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:background="@color/white"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/lbl_totaal_prijs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:fontFamily="sans-serif"
+                android:text="@string/totaal_prijs"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+            <TextView
+                android:id="@+id/txt_totaal_prijs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:fontFamily="sans-serif"
+                android:text="00,00"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Button"></Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Button"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="720dp"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="Pizza"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="pasta"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:text="schotels"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:text="kapsalon"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="720dp"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="durum"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="broodjes"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:text="stokbrood"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:text="bakjes"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="720dp"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="dessert"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="drank"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:text="extras"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:text="Button"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="720dp"
+            android:layout_margin="15dp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="Button"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="Button"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:text="Button"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:text="Button"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
